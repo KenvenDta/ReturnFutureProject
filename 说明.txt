@@ -1,1 +1,2 @@
-Video&Music里的文件素材需解压
+Video&Music里的文件素材需解压,切勿嵌套Video&Music文件,解压后将父文件里的Video&Music(带素材的文件)覆盖父文件
+
