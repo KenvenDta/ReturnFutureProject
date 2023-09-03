@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Srcimg/HomeLogo.png">
+    <title>Ruturn your Future</title>
+    <style type="text/css">
+        .bgimg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -10;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+
+        .DaohanTao {
+            width: 100%;
+            height: 30px;
+            margin: auto;
+            background-color: white;
+            z-index: 20px;
+            border-radius: 20px;
+        }
+
+        @font-face {
+            font-family: itFont;
+            src: url(Font/NereusGX.ttf);
+        }
+
+        #Ourlogo {
+            font-size: 97px;
+            font-family: itFont;
+            text-align: center;
+            color: white;
+        }
+
+        @font-face {
+            font-family: kjFont;
+            src: url(Font/Potra.otf);
+        }
+
+        k {
+            font-family: kjFont;
+            font-size: 65px;
+            color: aquamarine;
+            background-image: -webkit-linear-gradient(45deg, #26a4f3, #43b695);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-animation: hue 6s infinite linear;
+        }
+
+        @-webkit-keyframes hue {
+            from {
+                -webkit-filter: hue-rotate(0deg);
+            }
+
+            to {
+                -webkit-filter: hue-rotate(-360deg);
+            }
+        }
+
+        @font-face {
+            font-family: itfont2;
+            src: url(Font/NereusItalicGX.ttf);
+        }
+
+        audio {
+            width: 300px;
+            height: 30px;
+            float: right;
+            margin-right: 1px;
+        }
+
+        sk {
+            float: left;
+            margin-top: 1px;
+            position: relative;
+            left: 15px;
+            font-family: itFont;
+            font-size: 18px;
+        }
+
+        .statrt {
+            text-decoration: none;
+            font-family: itFont;
+            font-size: 40px;
+            color: aquamarine;
+            background-image: -webkit-linear-gradient(45deg, #26a4f3, #43b695);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-animation: hue 6s infinite linear;
+        }
+
+        .btn {
+            width: 200px;
+            height: 57px;
+            border-radius: 8px;
+            text-align: center;
+            line-height: 53px;
+            background-color: white;
+            margin: auto;
+            position: relative;
+            top: 100px;
+        }
+
+        h2 {
+            font-family: itFont;
+            color: white;
+            text-align: center;
+            position: relative;
+            bottom: 11px;
+        }
+
+        .end {
+            width: 1500px;
+            height: 50px;
+            margin: auto;
+        }
+
+        hr {
+            position: relative;
+            top: 340px;
+        }
+
+        p {
+            color: white;
+            font-size: 10px;
+            position: relative;
+            float: right;
+            top: 300px;
+            right: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="DaohanTao">
+        <sk>Every programmer is a writer——(Sercan Leylek)</sk>
+        <audio controls>
+            <source src="Video&Music/Waving At Cars-Isac Elliot.128.mp3" type="audio/mpeg">
+            <source src="Video&Music/Waving At Cars-Isac Elliot.128.mp3" type="audio/ogg">
+        </audio>
+    </div>
+    <h1 id="Ourlogo">Return <k>Future</k>
+    </h1>
+    <h2>For your future</h2>
+    <div class="btn">
+        <a class="statrt" href="Home.html">Take up</a>
+    </div>
+    <div class="end">
+        <hr color="white" width="1500px">
+        <p>学的不止是技术更有情操</p>
+    </div>
+    <video src="Video&Music/FutureVideo.mp4" class="bgimg" autoplay loop muted></video>
+</body>
+
+</html>
